@@ -1,18 +1,11 @@
-Scenario: Exploración de sitios turísticos con amigos en tiempo real
+Como viajero en grupo
+Quiero explorar sitios turísticos con mis amigos en tiempo real y comunicarme con ellos
+Para disfrutar de la experiencia juntos
 
-DADO QUE el usuario crea un grupo de viaje,
-Y los miembros del grupo se unen al grupo de viaje,
-CUANDO los usuarios empiezan a explorar sitios turísticos,
-ENTONCES la aplicación permite ver la ubicación de los demás en tiempo real,
-Y hay una función de chat para comunicarse dentro del grupo,
-Y se pueden compartir imágenes y comentarios en tiempo real.
+Scenario: El cliente quiere explorar sitios turísticos con amigos en tiempo real
 
-INPUT:
-
-Grupo de viaje
-Función de chat
-OUTPUT:
-
-Ubicación en tiempo real
-Chat en grupo
-Imágenes y comentarios compartidos en tiempo real
+Given el cliente crea un grupo de viaje
+When los miembros del grupo se unen al grupo de viaje
+Then la aplicación permite ver la ubicación de los demás en tiempo real
+And hay una función de chat para comunicarse dentro del grupo
+And se pueden compartir imágenes y comentarios en tiempo real

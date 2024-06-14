@@ -1,18 +1,13 @@
-Scenario: Compatibilidad con varios dispositivos VR
+Feature: Compatibilidad con Dispositivos VR
 
-DADO QUE el usuario tiene un dispositivo VR compatible,
-Y inicia la aplicación en modo VR,
-CUANDO el usuario selecciona un tour virtual,
-ENTONCES la aplicación muestra el tour en modo VR,
-Y la configuración de VR es fácil de ajustar según el dispositivo,
-Y la calidad gráfica se ajusta automáticamente a las capacidades del dispositivo.
+Como aficionado a la tecnología
+Quiero que la aplicación sea compatible con varios dispositivos VR
+Para una experiencia inmersiva
 
-INPUT:
+Scenario: El cliente quiere usar la aplicación con dispositivos VR
 
-Dispositivo VR
-Tour virtual
-OUTPUT:
-
-Tour en modo VR
-Configuración ajustable
-Calidad gráfica adecuada
+Given el cliente tiene un dispositivo VR compatible
+When inicia la aplicación en modo VR
+Then la aplicación muestra el tour en modo VR
+And la configuración de VR es fácil de ajustar según el dispositivo
+And la calidad gráfica se ajusta automáticamente a las capacidades del dispositivo

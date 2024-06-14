@@ -8,7 +8,11 @@ Scenario: El cliente quiere cambiar el idioma de narraciones y textos
 
 Given el cliente selecciona el idioma deseado
 When accede a un tour o contenido de texto
+And decide cambiar el idioma
 Then la aplicación ofrece narraciones y textos en múltiples idiomas
 And los usuarios pueden cambiar el idioma en cualquier momento
 And las traducciones son precisas y culturalmente adecuadas
 And hay una opción para mostrar subtítulos en el idioma original y en el idioma de aprendizaje
+
+| Idioma   | Narraciones | Subtítulos |
+| Español  | Activo      | Sí         |

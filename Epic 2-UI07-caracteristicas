@@ -8,6 +8,7 @@ Scenario: El cliente quiere usar la aplicación con dispositivos VR
 
 Given el cliente tiene un dispositivo VR compatible
 When inicia la aplicación en modo VR
+And selecciona un tour virtual  
 Then la aplicación muestra el tour en modo VR
 And la configuración de VR es fácil de ajustar según el dispositivo
 And la calidad gráfica se ajusta automáticamente a las capacidades del dispositivo

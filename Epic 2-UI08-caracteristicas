@@ -1,17 +1,13 @@
-Scenario: Personalización de avatar
+Feature: Personalización de Avatar
 
-DADO QUE el usuario accede a la sección de personalización de avatar,
-Y selecciona opciones de ropa, accesorios y apariencia,
-CUANDO el usuario guarda los cambios,
-ENTONCES los cambios en el avatar se reflejan en tiempo real,
-Y los avatares personalizados se pueden usar en todas las funciones de la aplicación,
-Y la personalización es intuitiva y fácil de usar.
+Como aficionado a la tecnología
+Quiero personalizar mi avatar
+Para que se vea único
 
-INPUT:
+Scenario: El cliente quiere personalizar su avatar
 
-Opciones de personalización de avatar
-OUTPUT:
-
-Avatar personalizado
-Reflexión en tiempo real
-Uso en todas las funciones de la aplicación
+Given el cliente accede a la sección de personalización de avatar
+When selecciona opciones de ropa, accesorios y apariencia
+Then los cambios en el avatar se reflejan en tiempo real
+And los avatares personalizados se pueden usar en todas las funciones de la aplicación
+And la personalización es intuitiva y fácil de usar

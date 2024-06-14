@@ -12,3 +12,5 @@ Then la aplicación muestra la historia, horarios y datos relevantes del sitio
 And las descripciones están disponibles en varios idiomas
 And los usuarios pueden ver fotos y videos del sitio turístico
 
+| Sitios Turísticos | Detalles |
+| Museo del Prado   | Historia, horarios, datos relevantes, fotos, videos |

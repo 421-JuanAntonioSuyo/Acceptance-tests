@@ -7,6 +7,10 @@ Scenario: El cliente quiere explorar sitios turísticos con amigos en tiempo rea
 
 Given el cliente crea un grupo de viaje
 When los miembros del grupo se unen al grupo de viaje
+And empiezan a explorar sitios turísticos  
 Then la aplicación permite ver la ubicación de los demás en tiempo real
 And hay una función de chat para comunicarse dentro del grupo
 And se pueden compartir imágenes y comentarios en tiempo real
+
+| Grupo de Viaje | Chat | Compartir |
+| Activo         | Sí   | Imágenes, comentarios |

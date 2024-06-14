@@ -1,0 +1,18 @@
+Scenario: Exploración de sitios turísticos populares
+
+DADO QUE el usuario accede a la sección de sitios turísticos,
+Y selecciona un sitio turístico de la lista,
+CUANDO el usuario abre la página de detalles del sitio,
+ENTONCES la aplicación muestra la historia, horarios y datos relevantes del sitio,
+Y las descripciones están disponibles en varios idiomas,
+Y los usuarios pueden ver fotos y videos del sitio turístico.
+
+INPUT:
+
+Sección de sitios turísticos
+Página de detalles del sitio
+OUTPUT:
+
+Información detallada del sitio (historia, horarios, datos relevantes)
+Descripciones en varios idiomas
+Fotos y videos del sitio

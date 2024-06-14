@@ -1,0 +1,18 @@
+Scenario: Actualizaciones regulares de nuevos sitios y eventos
+
+DADO QUE el usuario se suscribe a categorías de interés,
+Y accede a la página principal de la aplicación,
+CUANDO hay nuevos sitios y eventos culturales disponibles,
+ENTONCES la aplicación envía notificaciones sobre nuevos sitios y eventos culturales,
+Y los nuevos sitios se destacan en la página principal,
+Y hay una sección dedicada a eventos actuales y futuros.
+
+INPUT:
+
+Categorías de interés
+Página principal de la aplicación
+OUTPUT:
+
+Notificaciones de nuevos sitios y eventos
+Nuevos sitios destacados
+Sección de eventos actuales y futuros

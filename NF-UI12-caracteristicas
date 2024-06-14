@@ -1,0 +1,17 @@
+Scenario: Captura y compartición de imágenes en redes sociales
+
+DADO QUE el usuario accede a la función de cámara en la aplicación,
+Y toma una foto,
+CUANDO el usuario aplica filtros y ajustes básicos,
+ENTONCES la aplicación permite compartir las fotos en redes sociales,
+Y las fotos compartidas incluyen enlaces y descripciones del sitio turístico.
+
+INPUT:
+
+Función de cámara
+Foto tomada
+OUTPUT:
+
+Foto con filtros y ajustes
+Compartición en redes sociales
+Enlaces y descripciones del sitio turístico

@@ -13,3 +13,6 @@ Then la aplicación muestra un sistema de logros por visitar sitios y completar 
 And los usuarios ganan puntos y recompensas por cada logro
 And los logros y recompensas se muestran en el perfil del usuario
 And hay una sección donde los usuarios pueden ver los logros de otros usuarios para comparar y competir
+
+| Logros  | Recompensas | Competencia |
+| Activos | Puntos      | Sí          |

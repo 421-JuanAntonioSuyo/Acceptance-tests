@@ -1,18 +1,14 @@
-Scenario: Actualizaciones regulares de nuevos sitios y eventos
+Feature: Actualizaciones Regulares de Nuevos Sitios y Eventos
 
-DADO QUE el usuario se suscribe a categorías de interés,
-Y accede a la página principal de la aplicación,
-CUANDO hay nuevos sitios y eventos culturales disponibles,
-ENTONCES la aplicación envía notificaciones sobre nuevos sitios y eventos culturales,
-Y los nuevos sitios se destacan en la página principal,
-Y hay una sección dedicada a eventos actuales y futuros.
+Como explorador cultural
+Quiero actualizaciones regulares de nuevos sitios y eventos
+Para siempre tener algo nuevo que explorar
 
-INPUT:
+Scenario: El cliente quiere recibir actualizaciones de nuevos sitios y eventos
 
-Categorías de interés
-Página principal de la aplicación
-OUTPUT:
+Given el cliente se suscribe a categorías de interés
+When accede a la página principal de la aplicación
+Then la aplicación envía notificaciones sobre nuevos sitios y eventos culturales
+And los nuevos sitios se destacan en la página principal
+And hay una sección dedicada a eventos actuales y futuros
 
-Notificaciones de nuevos sitios y eventos
-Nuevos sitios destacados
-Sección de eventos actuales y futuros

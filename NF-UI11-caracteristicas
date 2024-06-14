@@ -1,20 +1,14 @@
-Scenario: Soporte multilingüe en narraciones y textos
+Feature: Soporte Multilingüe en Narraciones y Textos
 
-DADO QUE el usuario selecciona el idioma deseado,
-Y accede a un tour o contenido de texto,
-CUANDO el usuario cambia el idioma,
-ENTONCES la aplicación ofrece narraciones y textos en múltiples idiomas,
-Y los usuarios pueden cambiar el idioma en cualquier momento,
-Y las traducciones son precisas y culturalmente adecuadas,
-Y hay una opción para mostrar subtítulos en el idioma original y en el idioma de aprendizaje.
+Como estudiante de idiomas
+Quiero soporte multilingüe en narraciones y textos
+Para mejorar mis habilidades lingüísticas
 
-INPUT:
+Scenario: El cliente quiere cambiar el idioma de narraciones y textos
 
-Idioma seleccionado
-Tour o contenido de texto
-OUTPUT:
-
-Narraciones y textos en múltiples idiomas
-Cambio de idioma
-Traducciones precisas
-Subtítulos en ambos idiomas
+Given el cliente selecciona el idioma deseado
+When accede a un tour o contenido de texto
+Then la aplicación ofrece narraciones y textos en múltiples idiomas
+And los usuarios pueden cambiar el idioma en cualquier momento
+And las traducciones son precisas y culturalmente adecuadas
+And hay una opción para mostrar subtítulos en el idioma original y en el idioma de aprendizaje

@@ -1,14 +1,14 @@
-Feature: Actualizaciones Regulares de Nuevos Sitios y Eventos
+Feature: Sistema de Logros y Recompensas
 
 Como explorador cultural
-Quiero actualizaciones regulares de nuevos sitios y eventos
-Para siempre tener algo nuevo que explorar
+Quiero un sistema de logros y recompensas
+Para motivar a explorar más sitios
 
-Scenario: El cliente quiere recibir actualizaciones de nuevos sitios y eventos
+Scenario: El cliente quiere usar un sistema de logros y recompensas
 
-Given el cliente se suscribe a categorías de interés
-When accede a la página principal de la aplicación
-Then la aplicación envía notificaciones sobre nuevos sitios y eventos culturales
-And los nuevos sitios se destacan en la página principal
-And hay una sección dedicada a eventos actuales y futuros
-
+Given el cliente visita sitios y completa tours
+When accede a su perfil
+Then la aplicación muestra un sistema de logros por visitar sitios y completar tours
+And los usuarios ganan puntos y recompensas por cada logro
+And los logros y recompensas se muestran en el perfil del usuario
+And hay una sección donde los usuarios pueden ver los logros de otros usuarios para comparar y competir

@@ -1,0 +1,6 @@
+DADO QUE el usuario accede a la aplicación,
+Y selecciona la opción de explorar sitios turísticos,
+CUANDO el usuario selecciona un sitio turístico de la lista,
+ENTONCES la aplicación muestra una página de detalles con la historia, horarios y datos relevantes,
+Y las descripciones están disponibles en varios idiomas,
+Y el usuario puede ver fotos y videos del sitio turístico.

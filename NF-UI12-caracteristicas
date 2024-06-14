@@ -10,3 +10,6 @@ Given el cliente accede a la función de cámara en la aplicación
 When toma una foto
 Then la aplicación permite compartir las fotos en redes sociales
 And las fotos compartidas incluyen enlaces y descripciones del sitio turístico
+
+| Cámara | Foto   | Compartir |
+| Tomada | Redes sociales |

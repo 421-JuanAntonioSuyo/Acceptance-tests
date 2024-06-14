@@ -11,3 +11,6 @@ When inicia la aplicación en modo VR
 Then la aplicación muestra el tour en modo VR
 And la configuración de VR es fácil de ajustar según el dispositivo
 And la calidad gráfica se ajusta automáticamente a las capacidades del dispositivo
+
+| Dispositivo VR | Modo VR | Configuración |
+| Oculus         | Activo  | Ajustable     |

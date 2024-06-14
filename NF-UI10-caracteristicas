@@ -1,20 +1,14 @@
-Scenario: Sistema de logros y recompensas
+Feature: Sistema de Logros y Recompensas
 
-DADO QUE el usuario visita sitios y completa tours,
-Y accede a su perfil,
-CUANDO el usuario alcanza logros,
-ENTONCES la aplicación muestra un sistema de logros por visitar sitios y completar tours,
-Y los usuarios ganan puntos y recompensas por cada logro,
-Y los logros y recompensas se muestran en el perfil del usuario,
-Y hay una sección donde los usuarios pueden ver los logros de otros usuarios para comparar y competir.
+Como explorador cultural
+Quiero un sistema de logros y recompensas
+Para motivar a explorar más sitios
 
-INPUT:
+Scenario: El cliente quiere usar un sistema de logros y recompensas
 
-Visita de sitios y tours
-Perfil del usuario
-OUTPUT:
-
-Sistema de logros
-Puntos y recompensas
-Logros en el perfil
-Comparación de logros
+Given el cliente visita sitios y completa tours
+When accede a su perfil
+Then la aplicación muestra un sistema de logros por visitar sitios y completar tours
+And los usuarios ganan puntos y recompensas por cada logro
+And los logros y recompensas se muestran en el perfil del usuario
+And hay una sección donde los usuarios pueden ver los logros de otros usuarios para comparar y competir

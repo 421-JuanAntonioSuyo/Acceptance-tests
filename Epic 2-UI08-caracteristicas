@@ -8,6 +8,10 @@ Scenario: El cliente quiere personalizar su avatar
 
 Given el cliente accede a la sección de personalización de avatar
 When selecciona opciones de ropa, accesorios y apariencia
+And guarda los cambios 
 Then los cambios en el avatar se reflejan en tiempo real
 And los avatares personalizados se pueden usar en todas las funciones de la aplicación
 And la personalización es intuitiva y fácil de usar
+
+| Avatar | Personalización |
+| Activo | Ropa, accesorios, apariencia |

@@ -8,6 +8,7 @@ Scenario: El cliente quiere usar un sistema de logros y recompensas
 
 Given el cliente visita sitios y completa tours
 When accede a su perfil
+And  revisa sus logros  
 Then la aplicación muestra un sistema de logros por visitar sitios y completar tours
 And los usuarios ganan puntos y recompensas por cada logro
 And los logros y recompensas se muestran en el perfil del usuario

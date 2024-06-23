@@ -1,17 +1,18 @@
-Feature: Actualizaciones Regulares de Nuevos Sitios y Eventos
+Feature: Personalización de Avatar
 
-Como explorador cultural
-Quiero actualizaciones regulares de nuevos sitios y eventos
-Para siempre tener algo nuevo que explorar
+Como aficionado a la tecnología
+Quiero personalizar mi avatar
+Para que se vea único
 
-Scenario: El cliente quiere recibir actualizaciones de nuevos sitios y eventos
+Scenario: El cliente quiere personalizar su avatar
 
-Given el cliente se suscribe a categorías de interés
-When accede a la página principal de la aplicación
-And hay nuevos sitios y eventos culturales disponibles
-Then la aplicación envía notificaciones sobre nuevos sitios y eventos culturales
-And los nuevos sitios se destacan en la página principal
-And hay una sección dedicada a eventos actuales y futuros
+Given el cliente accede a la sección de personalización de avatar
+When selecciona opciones de ropa, accesorios y apariencia
+And guarda los cambios 
+Then los cambios en el avatar se reflejan en tiempo real
+And los avatares personalizados se pueden usar en todas las funciones de la aplicación
+And la personalización es intuitiva y fácil de usar
 
-| Suscripción | Notificaciones | Eventos |
-| Activa      | Sí             | Actuales, futuros |
+| Avatar | Personalización |
+| Activo | Ropa, accesorios, apariencia |
+
